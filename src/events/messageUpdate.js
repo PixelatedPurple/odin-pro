@@ -68,4 +68,4 @@ module.exports = (client, oldMessage, newMessage) => {
       messageDeleteLog.send(embed);
     }
   }
-};
+}; 
