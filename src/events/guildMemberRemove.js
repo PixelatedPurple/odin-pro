@@ -56,4 +56,4 @@ module.exports = (client, member) => {
   client.db.users.updateCurrentMember.run(0, member.id, member.guild.id);
   client.db.users.wipeTotalPoints.run(member.id, member.guild.id);
 
-};
+}; 
