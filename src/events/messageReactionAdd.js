@@ -40,7 +40,7 @@ module.exports = async (client, messageReaction, user) => {
       message.channel === starboardChannel
     ) return;
 
-    const emojis = ['⭐', '🌟', '✨', '💫', '☄️'];
+    const emojis = ['⭐', '🌟', '✨', '💫', '☄️', '✔'];
     const messages = await starboardChannel.messages.fetch({ limit: 100 });
     const starred = messages.find(m => {
       return emojis.some(e => {
