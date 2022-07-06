@@ -2,6 +2,7 @@ const config = require('./config.json');
 const Client = require('./src/Client.js');
 const { Intents } = require('discord.js');
 
+
 global.__basedir = __dirname;
 
 // Client setup
