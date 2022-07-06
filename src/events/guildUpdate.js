@@ -8,4 +8,3 @@ module.exports = (client, oldGuild, newGuild) => {
 
   client.logger.info(`${oldGuild.name} server name changed to ${newGuild.name}`);
 };
- 
