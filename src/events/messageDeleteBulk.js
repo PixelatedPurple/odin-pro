@@ -22,4 +22,4 @@ module.exports = (client, messages) => {
     messageDeleteLog.send(embed);
   }
 
-};
+}; 
