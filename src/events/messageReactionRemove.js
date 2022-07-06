@@ -47,4 +47,4 @@ module.exports = async (client, messageReaction, user) => {
         await starMessage.delete().catch(err => client.logger.error(err.stack));
     }
   }
-};
+}; 
